@@ -30,7 +30,7 @@
 
     <!--Booking Section-->
     <main class="main-content container">
-        <div id="bookArea" class="booking-form">
+        <div id="bookingArea" class="booking-form">
             <h3>Booking Flights</h3>
             <div class="input-group">
                 <label for="">Flying From</label>
@@ -99,7 +99,7 @@
                     </div>
                 </div>
             </div>
-            <button id="bookBtn" class="btn-style">Book Now</button>
+            <button id="bookingBtn" class="btn-style">Book Now</button>
         </div>
 
         <div class="booking-content">
@@ -154,10 +154,10 @@
                }
                
             //    for booking confirmation
-               const bookBtn = document.getElementById('bookBtn');
-               bookBtn.addEventListener('click', function () {
-                const bookArea = document.getElementById('bookArea');
-                bookArea.style.display = "none";
+               const bookingBtn = document.getElementById('bookingBtn');
+               bookingBtn.addEventListener('click', function () {
+                const bookingArea = document.getElementById('bookingArea');
+                bookingArea.style.display = "none";
                 const transactionArea = document.getElementById('transactionArea');
                 transactionArea.style.display = "block";
                });
